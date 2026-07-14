@@ -24,3 +24,7 @@ This project is a university implementation of an enhanced Schnorr digital signa
 
 ## Note
 This project was developed for educational purposes as part of a university cryptography project.
+
+## Sample Output
+
+![Program Output](output.png)
