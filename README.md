@@ -27,6 +27,18 @@ An enhanced implementation of the Schnorr Digital Signature Scheme using Java an
 ## Note
 This project was developed as part of a university cryptography project. The implementation was designed with reference to the National Cryptographic Standards published by the Saudi National Cybersecurity Authority (NCA).
 
+## How It Works
+
+The implementation demonstrates the complete workflow of an enhanced Schnorr Digital Signature scheme:
+
+1. Generates a deterministic nonce using an RFC6979-style HMAC-DRBG.
+2. Creates a digital signature using the private key and SHA3-256 hashing.
+3. Verifies the signature by reconstructing the elliptic curve point and comparing it with the original signature.
+4. Measures the execution time of the signing process.
+5. Demonstrates resistance to simple brute-force attempts through a simulated key search.
+
+The sample output included in this repository shows each stage of the signing and verification process.
+
 ## Sample Output
 
 ![Program Output](output.png)
